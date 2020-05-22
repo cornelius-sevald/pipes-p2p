@@ -1,0 +1,36 @@
+name:                pipes-p2p
+version:             0.5
+github:              "cornelius-sevald/pipes-p2p"
+license:             BSD3
+author:              "Cornelius Sevald-Krause"
+maintainer:          "cornelius.sevald@protonmail.com"
+copyright:           "2020 Cornelius Sevald-Krause"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/cornelius-sevald/pipes-p2p#readme>
+
+dependencies:
+- base                    >= 4.7 && < 5
+- bytestring              >= 0.10.10.0
+- network                 >= 3.1.1.1
+- async                   >= 2.2.2
+- binary                  >= 0.8.7.0
+- mtl                     >= 2.2.2
+- errors                  >= 2.3.0
+- exceptions              >= 0.10.4
+- pipes                   >= 4.3.13
+- pipes-concurrency       >= 2.0.12
+- pipes-network           >= 0.6.5
+- network-simple-sockaddr >= 0.3
+
+library:
+  source-dirs: src

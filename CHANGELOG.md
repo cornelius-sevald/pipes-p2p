@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file. This file
 follows the formatting recommendations from [Keep a
 CHANGELOG](http://keepachangelog.com/).
 
+## [0.5][0.5] - 2020-5-22
+Use newer version of dependencies and change to stack.
+
 ## [0.4][0.4] - 2015-4-13
 ### Changed
 - Upgrade to `exceptions-0.6`.
